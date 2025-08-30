@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .h1 {
+            animation: fadeIN 2s ease-in-out 0s infinite alternate forwards;
+            opacity: 0;
+        }
+
+        @keyframes fadeIN {
+            to {
+                opacity: 1;
+            }
+        }
+
+        .h2 {
+            animation: fadeout 2s ease-in-out 0s infinite alternate forwards;
+            opacity: 1;
+        }
+
+        @keyframes fadeout {
+            to {
+                opacity: 0;
+            }
+        }
+
+        .h3 {
+            animation: slideIn 2s alternate forwards infinite ease-in-out;
+            transform: translateX(-100%);
+        }
+
+        @keyframes slideIn {
+            to {
+                transform: translateX(182.5px);
+            }
+        }
+
+        .h {
+            animation: upside 2s ease-in-out 0s infinite alternate forwards;
+        }
+
+        @keyframes upside {
+            from {
+                transform: translateY(0);
+                opacity: 1;
+            }
+
+            to {
+                transform: translateY(-200px);
+                opacity: 0;
+            }
+        }
+
+        .h4 {
+            animation: downside 2s ease-in-out 0s infinite alternate forwards;
+        }
+
+        @keyframes downside {
+            from {
+                transform: translateY(0);
+            }
+
+            to {
+                transform: translateY(155px);
+            }
+        }
+
+        .h6 {
+            animation: lesgobounce 4s ease-in-out infinite alternate forwards 0s;
+        }
+
+        @keyframes lesgobounce {
+            0% {
+                transform: translate(0, 0);
+            }
+
+            50% {
+                transform: translate(0, 155px);
+            }
+
+            100% {
+                transform: translate(-182.5px, 155px);
+            }
+        }
+
+        .h7 {
+            animation: bouncelesgo 4s infinite forwards alternate 0s ease-in-out;
+        }
+
+        @keyframes bouncelesgo {
+            0% {
+                transform: translate(0, 0);
+                opacity: 1;
+            }
+
+            50% {
+                transform: translate(-182.5px, 0px);
+                opacity: 1;
+            }
+
+            100% {
+                transform: translate(-182.5px, -155px);
+                opacity: 0;
+            }
+        }
+
+        .h8 {
+            animation: chaloguys 6s infinite forwards ease-in-out alternate 0s;
+        }
+
+        @keyframes chaloguys {
+            0% {
+                transform: translate(0, 0);
+            }
+
+            33.33333% {
+                transform: translate(-182.5px, 0);
+            }
+
+            66.66666% {
+                transform: translate(-182.5px, 155px);
+            }
+
+            100% {
+                transform: translate(-365px, 155px);
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <img src="Untitled.jpg" class="h1">
+    <img src="Untitled.jpg" class="h3">
+
+    <img src="Untitled.jpg" class="h2">
+
+    <img src="Untitled.jpg" class="h4">
+
+
+
+    <img src="Untitled.jpg" class="h">
+    <img src="Untitled.jpg" class="h6">
+
+    <img src="Untitled.jpg" class="h7">
+    <img src="Untitled.jpg" class="h8">
+
+
+</body>
+
+</html>
