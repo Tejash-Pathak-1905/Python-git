@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+          <title>YoutubeLite</title>
+          <style>
+               body{
+                    background-color: rgb(14, 14, 14);
+               }
+               .thumbnail-image{
+                    width: 386px;
+                    display: inline-block;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    transition: opacity 0.15s;
+               }
+               .thumbnail-image:hover{
+                    opacity: 0.8;
+               }
+               .thumbnail-image:active{
+                    opacity: 0.6;
+               }
+               p{
+                 margin-top: 0;
+                 margin-bottom: 0;
+                 
+               }
+               .video-owner-image{
+                    width: 40px;
+                    border-radius: 20px;
+                    cursor: pointer;
+                   transition: opacity 0.15s;
+               }
+               .video-owner-image:hover{
+                    opacity: 0.8;
+               }
+               .video-owner-image:active{
+                    opacity: 0.6;
+               }
+               
+               .video-preview{
+                    width: 386px;
+                    margin-left: 20px;
+                    display: inline-block;
+                    margin-right: 20px;
+                    vertical-align: top;
+                   
+               }
+               .content:hover{
+                    opacity: 0.8;
+               }
+               .content:active{
+                    opacity: 0.6;
+               }
+               .pfp,.content{
+                    display: inline-block;
+               }
+               .content{
+                    vertical-align: top;
+                    font-family: roboto;
+                    margin-left: 8px;
+                     cursor: pointer;
+                    transition: opacity 0.15s;
+               }
+               .video-title{
+                    font-weight: 500;
+                    font-size: 15px;
+                    margin-bottom: 4px;
+                    color: white;
+               }
+               .video-owner{
+                  
+                    color: rgb(146, 146, 146);
+                    font-size: 13px;
+                    margin-bottom: 3px;
+               }
+               .video-stats{
+                    color: rgb(146, 146, 146);
+                    font-size: 13px;
+               }
+               .video-info{
+                    margin-top: 6px;
+                    margin-left: 10px;
+               }
+               .search-ribbon{
+                    display: block;
+                    margin-top: 8px;
+                    margin-bottom: 10px;
+                    text-align: left;
+               }
+               .searchbox{
+                    margin-bottom: 30px;
+                    display: inline;
+                    border-width: 0;
+                    border-radius: 30px;
+                    padding-bottom: 10px;
+                    padding-top: 10px;
+                    padding-left: 10px;
+                    padding-right: 380px;
+                    background-color: rgb(14, 14, 14);
+                    margin-left: 20px;
+                    margin-top: 3px;
+                    color: rgb(146,146,146);
+                    border-width: 1px;
+                    border-color: rgb(146,146,146);
+                    box-shadow: none;
+                    font-family: roboto;
+               }
+               .right-panel,.left-panel{
+                    display: inline-block;
+                    margin-left: 10px;
+                    
+               }
+               .leftpanel{
+                    border-radius: 50px;
+                    width: 46px;
+               }
+           
+          </style>
+     </head>
+     <body>
+          <div class="header" style="display: flex; flex-direction: row;">
+               <div style="background-color: aqua; width: 170px;">div1</div>
+               <div style="background-color: beige; flex:1; margin-left: 80px; margin-right: 60px; max-width: 700px;"> <div class="search-ribbon">
+               <input class="searchbox" type="text" placeholder="Seacrh">
+          </div></div>
+               <div style="background-color: blueviolet; width: 200px;">Div3</div>
+          </div>
+          <div class="body">
+               <div class="left-panel">
+               <img class="leftpanel" src="Video-owner.jpeg">
+          </div>
+          <div class="right-panel">
+                
+          <div class="video-preview">
+               <div>
+                     <img class="thumbnail-image" src="Thumbnail1.jpeg">
+               </div>
+               <div class="video-info">
+                    <div class="pfp">
+                         <img class="video-owner-image" src="Video-owner.jpeg">
+                    </div>
+                    <div class="content">
+                         <p class="video-title">HTML & CSS - Full course</p>
+                         <p class="video-owner">SuperSimpleDev</p>
+                         <p class="video-stats">15M views &#183; 3 years ago</p>            
+                    </div>
+                    
+                     </div>               
+         
+          </div>
+
+
+          
+         
+          
+          <div class="video-preview">
+               <div>
+                     <img class="thumbnail-image" src="Thumbnail2.jpeg">
+               </div>
+               <div class="video-info">
+                    <div class="pfp">
+                         <img class="video-owner-image" src="Video-owner2.jpeg">
+                    </div>
+                    <div class="content">
+                         <p class="video-title">BTech - Standup Comedy by Harsh Gujral</p>
+                         <p class="video-owner">Hars Gujral</p>
+                         <p class="video-stats">17M views &#183; 1 years ago</p>            
+                    </div>
+                    
+                     </div>               
+         
+          </div>
+         
+          </div>
+       
+
+          </div>
+           
+     </body>
+</html>
